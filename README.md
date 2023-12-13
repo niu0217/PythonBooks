@@ -6,3 +6,4 @@
 
 ## 2. 《Python编程快速上手》-让繁琐工作自动化(第2版)
 
+[Readme.md](https://github.com/niu0217/PythonBooks/blob/main/Automate-Tedious-Tasks/Readme.md)
