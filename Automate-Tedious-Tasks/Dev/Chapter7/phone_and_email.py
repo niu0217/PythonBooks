@@ -29,6 +29,9 @@ for groups in phoneRegex.findall(text):
 for groups in emailRegex.findall(text):
     matches.append(groups[0])
 
+# 对查找到的结果去重
+matches = set(matches)
+
 if len(matches) > 0:
     pyperclip.copy('\n'.join(matches))
     print('Copied to clipboard: ')
