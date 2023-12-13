@@ -5,3 +5,5 @@
 [Readme.md](https://github.com/niu0217/PythonBooks/blob/main/Automate-Tedious-Tasks/Dev/Chapter6/Readme.md)
 
 ## 第7章-模式匹配与正则表达式
+
+[Readme.md](https://github.com/niu0217/PythonBooks/blob/main/Automate-Tedious-Tasks/Dev/Chapter7/Readme.md)
