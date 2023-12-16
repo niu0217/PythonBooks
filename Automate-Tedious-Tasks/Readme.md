@@ -21,3 +21,5 @@
 [Readme.md](https://github.com/niu0217/PythonBooks/blob/main/Automate-Tedious-Tasks/Dev/Chapter11/Readme.md)
 
 ## 第12章-从Web抓取信息
+
+[Readme.md](https://github.com/niu0217/PythonBooks/blob/main/Automate-Tedious-Tasks/Dev/Chapter12/Readme.md)

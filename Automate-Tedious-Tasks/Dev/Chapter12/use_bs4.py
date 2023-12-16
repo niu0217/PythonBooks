@@ -1,4 +1,4 @@
-# 简单实用bs4来解析HTML文件
+# 简单使用bs4来解析HTML文件
 
 import requests
 import bs4
