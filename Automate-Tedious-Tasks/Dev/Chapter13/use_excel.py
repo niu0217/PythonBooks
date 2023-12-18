@@ -1,6 +1,7 @@
 import openpyxl
 from openpyxl.utils import get_column_letter
 from openpyxl.utils import column_index_from_string
+from openpyxl.styles import Font
 
 # wb = openpyxl.load_workbook('./sources/example.xlsx')
 # print(wb.sheetnames)  # 打印表名，是个列表
@@ -55,9 +56,38 @@ from openpyxl.utils import column_index_from_string
 # wb.save('nihao.xlsx')
 
 # 将值写入单元格
-wb = openpyxl.Workbook()
-print(wb.sheetnames)
-sheet = wb['Sheet']
-sheet['A1'] = 'Hello niu0217'
-print(sheet['A1'].value)
-# wb.save('nihao.xlsx')
+# wb = openpyxl.Workbook()
+# print(wb.sheetnames)
+# sheet = wb['Sheet']
+# sheet['A1'] = 'Hello niu0217'
+# print(sheet['A1'].value)
+# # wb.save('nihao.xlsx')
+
+# 设置单元格的字体
+# wb = openpyxl.Workbook()
+# sheet = wb.active
+# italic24Font = Font(size=24, italic=True)
+# sheet['A1'].font = italic24Font
+# sheet['A1'] = 'Hello niu'
+# sheet['B9'] = '=SUM(B1:B8)'  # 设置公式
+# wb.save('style.xlsx')
+
+# 调整行和列
+# wb = openpyxl.Workbook()
+# sheet = wb.active
+# 调整高度和宽度
+# sheet['A1'] = 'Tall row'
+# sheet['B2'] = 'Ni hao'
+# sheet.row_dimensions[1].height = 70
+# sheet.column_dimensions['B'].width = 20
+# wb.save('dimensions.xlsx')
+# 合并拆分单元格
+# sheet.merged_cells('A1:D3')
+# sheet['A1'] = 'Tall row'
+# sheet.unmerge_cells('A1:D3')
+# wb.save('merged.xlsx')
+# 冻结窗格
+# sheet.freeze_panes = 'A2'  # Freeze the rows above A2
+# wb.save('freeze.xlsx')
+
+
