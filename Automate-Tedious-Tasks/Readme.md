@@ -38,6 +38,8 @@
 
 ## 第17章-保持时间、计划任务和启动程序
 
+[Readme.md](https://github.com/niu0217/PythonBooks/blob/main/Automate-Tedious-Tasks/Dev/Chapter17/Readme.md)
+
 ## 第18章-发送电子邮件和短信
 
 ## 第19章-操作图像
